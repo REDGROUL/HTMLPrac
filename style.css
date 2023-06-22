@@ -1,0 +1,76 @@
+/* @media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    /* border: 1px solid black; */
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+}
+
+
+.menu__items{
+    display: flex;
+    gap: 25px;
+}
+
+.business{
+    background: rgb(160, 155, 155);
+    height: 760px;
+}
+
+.business__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.business__content__left{
+    margin-top: 180px;
+
+}
+.ft_size{
+    font-size: 72px;
+}
+
+.business__subtext{
+    margin-top: 25px;
+    font-size: 24px;
+}
+.business_button{
+    margin-top: 25px;
+
+}
+
+.Btn_blue{
+    height: 40px;
+    width: 150px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+}
