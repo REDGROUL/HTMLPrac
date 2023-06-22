@@ -27,13 +27,17 @@
 
     /* border: 1px solid black; */
 }
+
+
 .header__menu{
     display: flex;
     align-items: center;
     height: 50px;
     justify-content: space-between;
 }
-
+.logo{
+    font-size: 35px;
+}
 
 .menu__items{
     display: flex;
@@ -100,6 +104,7 @@
 
 .company__cards{
     display: grid;
+    margin-top: 70px;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -110,7 +115,8 @@
 .card__image{
     height: 150px;
     width: 250px;
-    background: grey;
+    background: url('Jabka.png') no-repeat;
+    background-size: contain;
 }
 .card__text{
     margin-top: 5px;
@@ -124,4 +130,10 @@
 
 .card__text__loc{
     margin-left: 25px;
+}
+
+.img{
+    height: 600px;
+    width: 100%;
+    background: url('Jabka.png') no-repeat;
 }
