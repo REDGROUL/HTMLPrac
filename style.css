@@ -99,5 +99,29 @@
 }
 
 .company__cards{
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card__item{
+    margin-top: 50px;
+    display: flex;
+}
+.card__image{
+    height: 150px;
+    width: 250px;
+    background: grey;
+}
+.card__text{
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.card__text__sub{
+    margin-top: 10px;
+    max-width: 250px;
+}
+
+.card__text__loc{
+    margin-left: 25px;
 }
