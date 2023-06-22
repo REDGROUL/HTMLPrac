@@ -74,3 +74,12 @@
     background: #007bff;
     color: #fff;
 }
+
+.company__section{
+    height: 760px;
+}
+.hsection{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 72px;
+}
