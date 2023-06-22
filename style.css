@@ -81,5 +81,23 @@
 .hsection{
     margin-top: 70px;
     text-align: center;
-    font-size: 72px;
+    font-size: 64px;
+    
+}
+.hsection__text{
+    font-weight: 600;
+
+}
+.hsection__subtext{
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+.hsection_minitext{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.company__cards{
+    
 }
